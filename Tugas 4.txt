@@ -1,0 +1,23 @@
+Nama:
+Azmi Abiyyu Sakha
+
+1.kenapa programmer wajib mengusai CLI
+>karena CLI adalah bahasa yang digunakan 
+untuk berkomnukasi dengan komputer
+
+2.kenapa menggunakan CLI sedangkan menggunkan GUI lebih praktis? 
+jelaskan.
+>karena CLI harus hafal banyaknya kata perintah walaupun lebih cepat
+sedangkan GUI tidak perlu hafal kata perintah karena sudah tersedia
+jadinya lebih mudah akan tetapi butuh banyak klik dan waktu
+
+3.berikan analogi perbedaan GUI dan CLI. (selain analogi restoran)
+>Analogi CLI dan GUI (di toko PC/komputer)
+-GUI adalah pilihan PC hasil dari pabrik, 
+dan hanya akan bisa memilih produk dari yang telah jadi
+-sedangkan CLI adalah rakit PC yang kamu minta ke teknisinya,
+kamu bisa request spsesifikasi yang kamu inginkan 
+asalkan kamu tau bagaimana cara mengatakan pada teknisinya
+
+4.berikan contoh sturktur sebuah perintah CLI
+> git remote add origin alamat url
