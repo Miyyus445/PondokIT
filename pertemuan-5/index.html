@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color: #007bff;">
+
+  <div
+    style="margin: auto; width: 500px; border: 2px solid white; border-radius: 10px; padding: 10px; background-color: #fff;">
+
+    <!-- judul form pendaftaran -->
+    <div style="text-align: center;">
+      <h1
+        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #0d47a1;">
+        From Pendaftaran</h1>
+      <h5 style="font-family:Arial, Helvetica, sans-serif; color: red;">Bacalah Syarat dan Petunjuk di Halaman Awal
+        sebelum mengisi Pendaftaran</h5>
+    </div>
+
+    <img src="orang.png" alt="Ikon Pendaftaran"/>
+
+    <!-- form -->
+    <div style="text-align: justify;">
+      <form action="/action_page.php">
+        <label for="fname">Upload</label><br>
+        <input type="file" id="fname" value="Masukan Nama"><br><br>
+
+        <label for="fname">Nama Lengkap</label><br>
+        <input type="text" name="firtsname" value="Masukan Nama"><br><br>
+
+        <label for="Gelombang">Gelombang</label><br>
+        <select name="Gelombang" id="Gelombang">
+          <option value="--pilih--" selected>--Pilih--</option>
+          <option value="Gelombang 1 (Kedatangan Bulan Juli)">Gelombang 1 (Kedatangan Bulan Juli)</option>
+          <option value="Gelombang 2 (Kedatangan Bulan Desemeber)">Gelombang 2 (Kedatangan Bulan Desemeber)</option>
+        </select><br><br>
+
+        <label for="Tahun Pendaftaran">Tahun Pendaftaran</label><br>
+        <select name="Tahun Pendaftaran" id="Tahun Pendaftaran">
+          <option value="--pilih--" selected>--Pilih--</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+        </select><br><br>
+
+        <label for="Jenis Kelamin">Jenis Kelamin</label><br>
+        <select name="Jenis Kelamin" id="Jenis Kelamin">
+          <option value="--pilih--" selected>--Pilih--</option>
+          <option value="Pria">Pria</option>
+          <option value="Wanita">Wanita</option>
+        </select><br><br>
+
+        <label for="Sudah Lulus / Masih Sekolah">Sudah Lulus / Masih Sekolah</label><br>
+        <select name="Sudah Lulus / Masih Sekolah" id="Sudah Lulus / Masih Sekolah">
+          <option value="Sudah Lulus Sekolah" selected>Sudah Lulus Sekolah</option>
+          <option value="Masih Sekolah">Masih Sekolah</option>
+        </select><br><br>
+
+        <label for="Provinsi">Provinsi</label><br>
+        <select name="Provinsi" id="Provinsi">
+          <option value="DKI Jakarta" selected>DKI Jakarta</option>
+          <option value="Aceh">Aceh</option>
+          <option value="Sumatra Utara">Sumatra Utara</option>
+          <option value="Sumatra Barat">Sumatra Barat</option>
+          <option value="Riau">Riau</option>
+          <option value="Kepulauan Riau">Kepulauan Riau</option>
+          <option value="Jambi">Jambi</option>
+          <option value="Sumatra Selatan">Sumatra Selatan</option>
+          <option value="Kepulauan Bangka Beliung">Kepulauan Bangka Beliung</option>
+          <option value="Bengkulu">Bengkulu</option>
+          <option value="Lampung">Lampung</option>
+          <option value="Banten">Banten</option>
+          <option value="Jawa Barat">Jawa Barat</option>
+          <option value="Jawa Tengah">Jawa Tengah</option>
+          <option value="Daerah Istimewa Yogyakarta">Daerah Istimewa Yogyakarta</option>
+          <option value="Jawa Timur">Jawa Timur</option>
+          <option value="Bali">Bali</option>
+          <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+          <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+          <option value="Kalimantan Barat">Kalimantan Barat</option>
+          <option value="Kalimantan Tangah">Kalimantan Tengah</option>
+          <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+          <option value="Kalimantan Timur">Kalimantan Timur</option>
+          <option value="Kalimantan Utara">Kalimantan Utara</option>
+          <option value="Sulawesi Utara">Sulawesi Utara</option>
+          <option value="Gorontalo">Gorontalo</option>
+          <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+          <option value="Sulawesi Barat">Sulawesi Barat</option>
+          <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+          <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+          <option value="Maluku">Maluku</option>
+          <option value="Maluku Utara">Maluku Utara</option>
+          <option value="Papua Barat">Papua Barat</option>
+          <option value="Papua">Papua</option>
+          <option value="Papua Tengah">Papua Tengah</option>
+          <option value="Papua Pegunungan">Papua Pegunungan</option>
+          <option value="Papua Selatan">Papua Selatan</option>
+          <option value="Papua Barat Daya">Papua Barat Daya</option>
+        </select><br><br>
+
+        <label for="Jurusan Yang Dituju">Jurusan Yang Dituju</label><br>
+        <select name="Jurusan Yang Dituju" id="Jurusan Yang Dituju">
+          <option value="Pilih Jurusan" selected>Pilih Jurusan</option>
+          <option value="Pondok Programmer (Khusus Ihkwan)">Pondok Programmer (Khusus Ihkwan)</option>
+          <option value="Pondok Multimedia (Khusus Ihkwan)">Pondok Multimedia (Khusus Ihkwan)</option>
+          <option value="Pondok Marketer (Imers) Ihkwan / Akhwat">Pondok Marketer (Imers) Ihkwan / Akhwat</option>
+        </select><br><br>
+
+        <label for="fname">Hobi</label><br>
+        <input type="text" name="firtsname"><br><br>
+
+        <label for="fname">Cita - Cita</label><br>
+        <input type="text" name="firtsname"><br><br>
+
+        <label for="fname">Alamat Rumah</label><br>
+        <input type="text"><br><br>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
