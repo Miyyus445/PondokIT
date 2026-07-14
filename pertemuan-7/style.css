@@ -1,0 +1,135 @@
+/* universal */
+* {
+  opacity: 0,1%;
+}
+
+/* body */
+.latarbelakang {
+  background: linear-gradient(#007bff, #0d47a1, #000);
+}
+
+/* main */
+main {
+  margin: auto;
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* header */
+header {
+  margin: auto;
+  width: 100%;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #007bff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  z-index: 1000;
+  opacity: 85%;
+}
+
+/* section */
+section {
+  text-align: center;
+}
+
+/* heading1 */
+#judul {
+  text-align: center;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 8px;
+}
+
+/* heading2 */
+h2 {
+  color: #000;
+  font-family: sans-serif;
+}
+
+/* paragraf */
+#p {
+  color: #000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: medium;
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+  border: 1px solid #000;
+}
+
+/* judultabel */
+.judultabel {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+}
+
+/* bgtabel */
+#bgtabel {
+  background-color: #0d47a1;
+}
+
+/* div1 */
+.div1 {
+  margin-left: 35%;
+  margin-right: 30%;
+  text-align: left;
+}
+
+/* div2 */
+.div2 {
+  margin-left: 1%;
+  margin-right: 5%;
+  text-align: left;
+  color: #000;
+  font-family: sans-serif;
+}
+
+/* label */
+#label {
+  font-weight: bold;
+}
+
+/* input */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+/* tombol */
+button {
+  background-color: #0d47a1;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: sans-serif;
+  margin-left: 86%;
+}
+
+/* footer */
+footer {
+  color: #000;
+  text-align: center;
+  opacity: 70%;
+}
+
+/* garis footer */
+.hr1 {
+  border: 0;
+  border-top: 1px solid #1a1a1a;
+  margin: 0 0 30px 0;
+}
