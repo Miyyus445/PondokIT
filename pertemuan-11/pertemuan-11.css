@@ -1,0 +1,234 @@
+.latarbelakang {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.hero-cover {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.65)
+    ), 
+    url("./aset-11/lorong.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 580px;
+}
+
+/* Tata letak teks hero DI KANAN */
+.hero-content {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: 5%;
+  text-align: right;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 42px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.hero-desc {
+  color: #bdc3c7;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.header-z {
+  color: #bdc3c7;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.header-z:hover {
+  color: #1d95f8;
+}
+
+/* Layout Article Zigzag */
+.article-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/* Selang-seling Kiri/Kanan */
+.article-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.article-text {
+  flex: 1;
+}
+
+.article-text h2 {
+  font-size: 26px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.article-meta {
+  color: #1d95f8;
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.article-text p {
+  color: #bdc3c7;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.article-media {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-media img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  max-height: 580px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.img-exif {
+  font-size: 12px;
+  color: #666666;
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* --- ARTIKEL 3 (CENTERED + FOTO SAWAH) --- */
+.article-container.centered {
+  flex-direction: column;
+  text-align: center;
+}
+
+.article-container.centered .article-text {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.article-media-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 650px;
+  margin: 20px auto 0 auto;
+}
+
+.article-media-centered img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.exif-side {
+  font-size: 11px;
+  color: #666666;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.article-media a, 
+.article-media-centered a {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.article-media a:hover, 
+.article-media-centered a:hover {
+  transform: scale(1.02);
+}
+
+/* Footer Styling */
+footer {
+  background: #080808;
+  padding: 30px 0;
+  border-top: 1px solid #1a1a1a;
+  color: #666;
+  font-size: 14px;
+}
+
+.footer-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a,
+.footer-z {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-links a {
+  margin-left: 15px;
+}
+
+.footer-links a:hover,
+.footer-z:hover {
+  color: #1d95f8;
+}
+
+/* Mobile Friendly */
+@media (max-width: 768px) {
+  .article-container, 
+  .article-container.reverse {
+    flex-direction: column;
+    margin: 40px auto;
+  }
+
+  .hero-content {
+    margin-right: auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .article-media-centered {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
