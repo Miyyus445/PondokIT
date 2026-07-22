@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page | DXOMARK Rankings</title>
+    <link rel="icon" href="./aset-12/logoDXOMARK.png" type="image/png" />
+    <link rel="stylesheet" href="pertemuan-12.css" />
+  </head>
+  <body class="latarbelakang">
+    <main>
+      <header>
+        <div class="divheader">
+          <div>
+            <img
+              src="./aset-12/DXOMARK.png"
+              alt="DXOMARK"
+              width="270px"
+              height="103px"
+            />
+          </div>
+          <div class="div2 nav">
+            <nav>
+              <a href="#Home" class="fontlink">Home</a>
+              <a href="#Rangkings" class="fontlink">Rangkings</a>
+              <a href="#Article" class="fontlink">Article</a>
+              <a href="#About Us" class="fontlink">About Us</a>
+              <!-- Link Login yang mengarah ke ID modal -->
+              <a href="#loginModal" class="fontlink">Login</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="bg-judul">
+        <div class="box-judul">
+          <h2 class="text">Smartphone Camera Rankings</h2>
+          <p class="text">
+            The DXOMARK scores in the rankings below reflect the device's
+            performance and the quality of the user experience. These scores,
+            trusted by the industry, are backed up by exhaustive protocols that
+            gather hundreds of measurements run in DXOMARK's state-of-the-art
+            laboratories.
+          </p>
+        </div>
+      </section>
+
+      <article>
+        <div class="table-container">
+          <table class="dxo-table-horizontal">
+            <tbody>
+              <!-- Baris 1: Header Rank & Angka Rank -->
+              <tr>
+                <th>Rank</th>
+                <td class="text-center"><strong>#1</strong></td>
+                <td class="text-center"><strong>#2</strong></td>
+                <td class="text-center"><strong>#3</strong></td>
+                <td class="text-center"><strong>#4</strong></td>
+                <td class="text-center"><strong>#5</strong></td>
+                <td class="text-center"><strong>#6</strong></td>
+                <td class="text-center"><strong>#7</strong></td>
+                <td class="text-center"><strong>#8</strong></td>
+                <td class="text-center"><strong>#9</strong></td>
+                <td class="text-center"><strong>#10</strong></td>
+              </tr>
+              <!-- Baris 2: Header Smartphone & Nama HP -->
+              <tr>
+                <th>Smartphone</th>
+                <td class="text-center"><strong>Huawei Pura 70 Ultra</strong></td>
+                <td class="text-center"><strong>Google Pixel 9 Pro XL</strong></td>
+                <td class="text-center"><strong>Honor Magic6 Pro</strong></td>
+                <td class="text-center"><strong>Apple iPhone 16 Pro Max</strong></td>
+                <td class="text-center"><strong>Apple iPhone 16 Pro</strong></td>
+                <td class="text-center"><strong>Huawei Mate 60 Pro+</strong></td>
+                <td class="text-center"><strong>OPPO Find X7 Ultra</strong></td>
+                <td class="text-center"><strong>Huawei P60 Pro</strong></td>
+                <td class="text-center"><strong>Apple iPhone 15 Pro Max</strong></td>
+                <td class="text-center"><strong>Google Pixel 9</strong></td>
+              </tr>
+              <!-- Baris 3: Header Skor DXOMARK & Angka Skor -->
+              <tr>
+                <th>Skor DXOMARK</th>
+                <td class="text-center"><span class="badge-score">163</span></td>
+                <td class="text-center"><span class="badge-score">158</span></td>
+                <td class="text-center"><span class="badge-score">158</span></td>
+                <td class="text-center"><span class="badge-score">157</span></td>
+                <td class="text-center"><span class="badge-score">157</span></td>
+                <td class="text-center"><span class="badge-score">157</span></td>
+                <td class="text-center"><span class="badge-score">157</span></td>
+                <td class="text-center"><span class="badge-score">156</span></td>
+                <td class="text-center"><span class="badge-score">154</span></td>
+                <td class="text-center"><span class="badge-score">154</span></td>
+              </tr>
+              <!-- Baris 4: Header Keunggulan Utama & Deskripsinya -->
+              <tr>
+                <th>Keunggulan Utama</th>
+                <td>Sensor 1 inci retractable, detil foto & exposure presisi</td>
+                <td>Konsistensi warna, pemrosesan AI, & dynamic range mantap</td>
+                <td>Kamera telephoto tajam & jepretan aksi/gerak cepat</td>
+                <td>Kualitas perekaman video terbaik & warna natural</td>
+                <td>Kemampuan kamera setara versi Max dalam bodi kompak</td>
+                <td>Aperture variabel & kualitas low-light sangat detail</td>
+                <td>Sistem dual-periscope & warna natural khas Hasselblad</td>
+                <td>Aperture fisik fleksibel & macro telephoto ciamik</td>
+                <td>Zoom optik 5x presisi & video HDR sangat stabil</td>
+                <td>Foto point-and-shoot konsisten tanpa ribet ubah setting</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </main>
+
+    <!-- Modal Form Login Pure CSS -->
+    <div id="loginModal" class="modal-overlay">
+      <!-- Area luar kotak modal, jika diklik akan menutup modal -->
+      <a href="#" class="modal-close-overlay"></a>
+
+      <div class="modal-box">
+        <!-- Tombol silang (X) mengarahkan balik ke '#' -->
+        <a href="#" class="close-btn">&times;</a>
+
+        <div class="modal-header">
+          <h2>Login Akun</h2>
+          <p>Silakan masukkan detail akun kamu.</p>
+        </div>
+
+        <form class="login-form">
+          <div class="input-group">
+            <label for="email">Email / Username</label>
+            <input type="text" id="email" placeholder="Masukkan email/username" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="••••••••" required />
+          </div>
+          <div class="form-actions">
+            <label><input type="checkbox" /> Ingat saya</label>
+            <a href="#" class="link-forgot">Lupa Password?</a>
+          </div>
+          <button type="submit" class="btn-login">Login</button>
+        </form>
+      </div>
+    </div>
+
+      <footer>
+        <div class="footer-simple">
+          <p>&copy; 2026 DXOMARK Image Labs. All rights reserved.</p>
+        </div>
+      </footer>
+  </body>
+</html>

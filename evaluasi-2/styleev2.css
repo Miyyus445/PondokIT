@@ -154,7 +154,7 @@ header {
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(226, 6, 18, 0.4); /* Disesuaikan biar glow merah oranye */
+  box-shadow: 0 8px 30px rgba(226, 6, 18, 0.4);
 }
 
 .btn-primary:hover::before {
