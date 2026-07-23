@@ -79,7 +79,7 @@ header {
   );
   border-radius: 8px;
   padding: 20px 30px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .bg-judul {
@@ -99,7 +99,7 @@ header {
 .table-container {
   width: 100%;
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 100px auto 250px auto;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   border-radius: 8px;
